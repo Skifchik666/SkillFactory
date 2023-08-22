@@ -4,7 +4,7 @@ price = 0
 for i, value in enumerate(age):
     if value < 18:
         price += 0
-    elif 18<=value<25:
+    elif 18 <= value<25:
         price += 990
     else:
         price += 1390
